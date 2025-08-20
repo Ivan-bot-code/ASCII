@@ -9,7 +9,7 @@ class ASCIIConverter:
         self.height = height
         self.ascii_chars = "@%#*+=-:. "  # Более детальная градация
         self.font = cv2.FONT_HERSHEY_SIMPLEX
-        self.font_scale = 0.2  # Уменьшил размер шрифта для большего разрешения
+        self.font_scale = 0.2
         self.font_color = (0, 255, 0)
         self.line_type = 1
         self.char_width = 4  # Ширина символа в пикселях
